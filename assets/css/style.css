@@ -162,15 +162,17 @@ body {
     display: flex;
     justify-content: space-evenly;
   }
-  
-  #contact a {
-    color: black;
-    text-decoration: underline;
+
+  /* footer section */
+  #button:hover {
+    box-shadow: 5px 10px #888888;
   }
 
-  #contact a:hover {
+  #footer-link:hover {
     background-color: yellow;
   }
   
+
+
   
 
