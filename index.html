@@ -14,17 +14,21 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Yusuf's Bootstrap Portfolio</title>
   </head>
   <body>
     <!-- Navigation -->
-    <nav
-      class="navbar navbar-expand-lg bg-body-tertiary fixed-top"
-      id="mainNav"
-    >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Yusuf's Portfolio</a>
+        <a class="navbar-brand" href="#"
+          ><img
+            src="./assets/images/5ab1a21aaafa93397c0d6eedcb24731e-computer-laptop-icon.png"
+            alt=""
+          />
+          Yusuf's Portfolio</a
+        >
         <button
-          class="navbar-toggler"
+          class="navbar-toggler btn btn-light"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -42,13 +46,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Work</a>
+              <a class="nav-link" href="#">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Contact Me</a>
+              <a class="nav-link" href="#">Contact Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Resume</a>
+              <a class="nav-link" href="#">Resume</a>
             </li>
           </ul>
         </div>
@@ -56,6 +60,24 @@
     </nav>
 
     <!-- Hero section -->
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3 heroBackground">
+      <div class="container-fluid py-5 heroCopy">
+        <h1 class="display-5 fw-bold heading">Yusuf Abdullahi</h1>
+        <p class="col-md-12 fs-4">
+          I am an aspiring <strong>web developer</strong> and this is my
+          portfolio made with bootstrap
+        </p>
+      </div>
+      <div class="col-lg-5 my-auto">
+        <div class="device-container">
+          <img
+            src="./assets/images/User-avatar.svg.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

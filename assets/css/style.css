@@ -1,6 +1,67 @@
-.nav-item a:hover {
-    /* background-color: black; */
-    color: darkcyan;
-    /* changes the property value smoothly */
-    transition: all 1s ease;
+/* Navigation*/
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img {
+    padding-right: 0;
+    width: 65px;
+    background-color: white;
+    border-radius: 30%;
+  }
+  
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  .customNav a {
+    color: white !important; 
+  }
+
+  /* button .navbar-toggler-icon {
+    background-color: white;
+  } */
+
+
+
+  /* hero section */
+  .heroBackground {
+    background-image: url("../images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3AtMjAwLWV5ZS0wMzQyNzAyLmpwZw.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    height: calc(100vh - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heroCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+    background: url("../images/transparency.png");
+  }
+
+  .heroBackground .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto;
+  
+  }
+
+  .heroBackground .device-container img {
+    border-radius: 3px;
   }
