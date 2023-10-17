@@ -1,3 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
 /* Navigation*/
 .customNav {
     position: fixed;
@@ -84,4 +96,21 @@
   .cardContainer {
     text-align: center;
   }
+
+  /* Skills Section */
+
+  section.content {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
+  section.content .skills-icon {
+    max-width: 18rem;
+  }
+  
+  section.content .skills img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+  }
+  
 
