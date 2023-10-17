@@ -65,3 +65,23 @@
   .heroBackground .device-container img {
     border-radius: 3px;
   }
+
+  /* work section/ cards*/
+
+  .content {
+    padding: 50px;
+  }
+  
+  .sectionHeading {
+    text-align: center;
+    /* padding-bottom: 30px; */
+  }
+  
+  .work {
+    padding: 0px 30px 30px 30px;
+  }
+  
+  .cardContainer {
+    text-align: center;
+  }
+
