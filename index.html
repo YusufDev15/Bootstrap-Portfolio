@@ -14,6 +14,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
     <title>Yusuf's Bootstrap Portfolio</title>
   </head>
   <body>
@@ -85,11 +88,7 @@
       <div class="row work" id="work">
         <div class="cardContainer col-sm-12 col-md-4">
           <div class="card">
-            <img
-              src="./assets/images/Screenshot 2023-10-17 143341.png"
-              class="card-img-top"
-              alt="..."
-            />
+            <img src="./assets/images/2.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Horiseon</h5>
               <p class="card-text">
@@ -105,11 +104,7 @@
         </div>
         <div class="cardContainer col-sm-12 col-md-4">
           <div class="card">
-            <img
-              src="./assets/images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3AtMjAwLWV5ZS0wMzQyNzAyLmpwZw.webp"
-              class="card-img-top"
-              alt="..."
-            />
+            <img src="./assets/images/1.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">First Portfolio</h5>
               <p class="card-text">
@@ -126,35 +121,27 @@
         </div>
         <div class="cardContainer col-sm-12 col-md-4">
           <div class="card">
-            <img
-              src="https://placehold.co/600x400/000000/FFFFFF/png"
-              class="card-img-top"
-              alt="..."
-            />
+            <img src="./assets/images/3.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Calculator</h5>
-              <p class="card-text">
-                Try the new calculators.
-              </p>
+              <p class="card-text">Try the new calculators.</p>
               <a href="" class="btn btn-secondary">Go to website</a>
             </div>
           </div>
         </div>
         <div class="cardContainer col-sm-12 col-md-4">
           <div class="card">
-            <img src="https://placehold.co/600x400" class="card-img-top" alt="..." />
+            <img src="./assets/images/6.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Puzzels</h5>
-              <p class="card-text">
-                Puzzel games.
-              </p>
+              <p class="card-text">Puzzel games.</p>
               <a href="" class="btn btn-secondary">Go to website</a>
             </div>
           </div>
         </div>
         <div class="cardContainer col-sm-12 col-md-4">
           <div class="card">
-            <img src="https://placehold.co/600x400" class="card-img-top" alt="..." />
+            <img src="./assets/images/4.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Led Wall</h5>
               <p class="card-text">
@@ -166,12 +153,14 @@
         </div>
         <div class="cardContainer col-sm-12 col-md-4">
           <div class="card">
-            <img src="https://placehold.co/600x400" class="card-img-top" alt="..." />
+            <img
+              src="./assets/images/Untitled design.png"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">Run Buddy</h5>
-              <p class="card-text">
-                A running website for fitness freaks.
-              </p>
+              <p class="card-text">A running website for fitness freaks.</p>
               <a href="" class="btn btn-secondary">Go to website</a>
             </div>
           </div>
@@ -181,16 +170,39 @@
 
     <!-- Skills section -->
 
-    <section class="container-fluid content">
-      <h2 class="sectionHeading"><strong>Skills</strong></h2>
-      <div class="row skills"></div>
-      <div class="col-lg-4">
-        <div class="skills-icon mx-auto mb-5 mb-lg-0">
-          <img class="img-fluid rounded-circle mb-3" src="./assets/images/919827.png" alt="">
-          <h5>HTML</h5>
+    <section class="skills text-center bg-light">
+      <div class="container">
+        <h2 class="mb-5"><strong>Skills</strong></h2>
+        <div class="row"></div>
+        <div class="col-lg-4">
+          <div class="skills-icon mx-auto mb-5 mb-lg-0">
+            <img
+              class="img-fluid rounded-circle mb-3"
+              src="./assets/images/html (1).png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="skills-icon mx-auto mb-5 mb-lg-0">
+            <img
+              class="img-fluid rounded-circle mb-3"
+              src="./assets/images/css(1).png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="skills-icon mx-auto mb-5 mb-lg-0">
+            <img
+              class="img-fluid rounded-circle mb-3"
+              src="./assets/images/js(1).png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
-
+    </section>
 
     <!-- About/Contact -->
     <section class="contact-section bg-black" id="contact">
@@ -212,7 +224,9 @@
                 <i class="fas fa-envelope text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Email</h4>
                 <hr class="my-4" />
-                <div class="small text-black-50"><a href="#!">hello@gmail.com</a></div>
+                <div class="small text-black-50">
+                  <a href="#!">hello@gmail.com</a>
+                </div>
               </div>
             </div>
           </div>
@@ -227,28 +241,8 @@
             </div>
           </div>
         </div>
-        <div class="social d-flex justify-content-center">
-          <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-          <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-          <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-        </div>
       </div>
     </section>
-  
-  
-
-
-
-
-
-        
-
-
-
-
-
-
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
