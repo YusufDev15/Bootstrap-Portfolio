@@ -1,0 +1,6 @@
+.nav-item a:hover {
+    /* background-color: black; */
+    color: darkcyan;
+    /* changes the property value smoothly */
+    transition: all 1s ease;
+  }
